@@ -6,13 +6,10 @@
 
 }
 
-#principal{
-    background-color: rgb(255, 174, 0);
-    margin-left: 5px;
-}
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
 }
 
 .container{
@@ -92,4 +89,30 @@ body{
 
 .nav_close{
     display: var(--show, none);
+}
+
+#hero_container{
+    max-width: 800px;
+    --padding-container: 0;
+    display:grid;
+    grid-auto-rows: max-content ;
+    align-content: center;
+    gap:1em;
+    padding-bottom: 100px;
+    text-align:center;
+    margin: 0 auto;
+}
+
+#hero_title{
+    font-size: 2.5rem;
+}
+
+#cta{
+    display: inline-block;
+    background-color: #ffd900;
+    justify-self: center;
+    color:black;
+    text-decoration: none;
+    padding: 13px 23 px;
+    border-radius: 32px;
 }
