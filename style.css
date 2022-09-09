@@ -38,19 +38,18 @@ body{
     height: 100%;
     top: 0;
     left:0;
-    background-image: linear-gradient(180deg, #000 0%, #6653538c 100%), url(icons/solar.jpg);
+    background-image: linear-gradient(180deg, #223240 0%, #6653538c 100%), url(icons/solar.jpg);
     background-size: cover;
     clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
     z-index: -1;
 }
 
 /*Nav*/
-.nav{
+nav{
     --padding-container:0;
     height: 100%;
     display:flex;
     align-items: center;
-
 }
 #navtitle{
     font-weight: 300;
@@ -109,10 +108,14 @@ body{
 
 #cta{
     display: inline-block;
-    background-color: #ffd900;
+    background-color: transparent;
     justify-self: center;
-    color:black;
+    color: white;
     text-decoration: none;
-    padding: 13px 23 px;
+    padding: 13px 23px;
+    border-style:solid;
+    border-color: white;
     border-radius: 32px;
+    
+
 }
