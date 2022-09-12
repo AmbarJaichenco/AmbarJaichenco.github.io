@@ -10,6 +10,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #f9f9f9;
+    padding: 0%;
 }
 
 .container{
@@ -53,17 +54,25 @@ nav{
 }
 #navtitle{
     font-weight: 300;
+    margin-left: 2rem;
 }
 
-.nav_linkmenu{
+/* .nav_linkmenu{
     margin-left: auto;
     padding: 0;
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: max-content;
     gap: 2em;
+    margin-right: 2rem;
+} */
+.nav_linkmenu{
+    margin-left: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .nav_items{
     list-style:none;
 }
@@ -75,7 +84,7 @@ nav{
     display:grid;
     grid-auto-columns: max-content;
     gap: 2em;
-    margin: 0 auto;
+    margin: 0 20px;
 }
 .nav_menu{
     margin-left:auto;
@@ -96,8 +105,8 @@ nav{
     padding: 5px 6px;
 
 }
-.nav_close{
-    display: var(--show, none);
+#nav_close{
+    margin: 0 20px;
 }
 
 #hero_container{
@@ -116,7 +125,7 @@ nav{
     font-size: 2.5rem;
 }
 
-#cta{
+.cta{
     display: inline-block;
     background-color: transparent;
     justify-self: center;
@@ -126,6 +135,45 @@ nav{
     border-style:solid;
     border-color: white;
     border-radius: 32px;
-    
-
 }
+
+/*main*/ 
+
+.subtitulo{
+    margin-top:60px;
+    color:var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#aboutp{
+    line-height: 3;
+    text-align: center;
+}
+
+.about_icons{
+    display:grid;
+    gap: 1em;
+    justify-items: center;
+    width: 260px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about_main{
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    margin-bottom: 20px;
+}
+
+.about_icon{
+    width: 40px;
+}
+
