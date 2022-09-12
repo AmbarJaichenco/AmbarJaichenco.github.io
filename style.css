@@ -177,3 +177,29 @@ nav{
     width: 40px;
 }
 
+#places{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lugar{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    background-size: contain;
+}
+
+.lugar1{
+    background-image: url(icons/solarshopping.jpg);
+}
+
+.lugar2{
+    background-image: url(icons/ort\ monta.jpeg);
+}
+
+.lugar3{
+    background-image: url(icons/libertador.jfif);
+}
+#hola{
+    margin: auto;
+}
