@@ -10,7 +10,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #f9f9f9;
-    padding: 0%;
+    padding: 0;
 }
 
 .container{
@@ -187,9 +187,10 @@ nav{
 
 .lugar{
     display: flex;
-    height: 300px;
+    height: 400px;
     width: 200px;
     background-size: cover; 
+    margin: 0 auto;
 
 }
 
@@ -214,21 +215,25 @@ nav{
 .lugar4{
     background-image: url(icons/sesion-de-entrenamiento-en-futbol.jpg);
     background-color: black 0.7;
+}
 
-
+.lugar5{
+    background-image: url(icons/barrancas15.jpg);
+    background-color: black 0.7;
 }
 .links_img{
     margin: auto;
-    background-color: #5EAE7E;
-    color:black;
-    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
-    padding: 6px 15px;
+    background-color: black ;
+    opacity: 0.8;
+    color: #A6D6D3 ;
+    /* clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%); */
+    padding: 8px 18px;
     text-decoration: none;
     text-align: center;
 }
 
 .donde{
-    background-color:#DDFDFF;
+    background-color: #A6D6D3;
     width: 100%;
     background-size: cover;
     overflow: hidden;
