@@ -170,7 +170,8 @@ nav{
     gap: 1em;
     overflow: hidden;
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
-    margin-bottom: 20px;
+    margin-bottom: 100px;
+
 }
 
 .about_icon{
@@ -182,7 +183,7 @@ nav{
     justify-content: space-between;
     margin: 0 auto;
     padding: 0 50px;
-    
+    margin-bottom: 40px;
 }
 
 .lugar{
@@ -230,6 +231,7 @@ nav{
     padding: 8px 18px;
     text-decoration: none;
     text-align: center;
+    font-weight: 500;
 }
 
 .donde{
@@ -237,9 +239,8 @@ nav{
     width: 100%;
     background-size: cover;
     overflow: hidden;
-
 }
 
 .donde_sub{
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
