@@ -4,55 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel=StyleSheet href="styleimpacto.css"> 
-    <link rel=StyleSheet href="normalize.css"> 
-    <title>Energía</title>
+    <title>Document</title>
+    <link rel=StyleSheet href="styleimpacto.css">
 
 </head>
 <body>
-    <section class="slider">
-        <h1>Que buscamos solucionar</h1>
-        <div class="slider_container container">
-            <img src="icons/leftarrow.svg" class="slider_arrow" id="before">
-            <section class="slider_body slider_body--show" data-id="1">
-                <div class="slider_texts">
-                    <h2 class="subtitle">hola</h2>
-                    <p class="slider_review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, laudantium sequi quos hic nostrum dolorem?</p>
-                </div> 
-                <figure class="slider_picture">
-                    <img src="icons/solarshopping.jpg">
-                </figure>
+    <section class="container_slider">
+        <div class="slider" id="slider">
+            <section class="slider_section">
+                <img src="icons/slider1.jpg" class="slider_img">
             </section>
-            <section class="slider_body" data-id="2">
-                <div class="slider_texts">
-                    <h2 class="subtitle">me llamo ambar</h2>
-                    <p class="slider_review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, laudantium sequi quos hic nostrum dolorem?</p>
-                </div> 
-                <figure class="slider_picture">
-                    <img src="icons/sesion-de-entrenamiento-en-futbol.jpg">
-                </figure>
+            <section class="slider_section">
+                <img src="icons/slider2.jpg" alt="" class="slider_img">
             </section>
-            <section class="slider_body" data-id="3">
-                <div class="slider_texts">
-                    <h2 class="subtitle">me llamo jazmin</h2>
-                    <p class="slider_review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, laudantium sequi quos hic nostrum dolorem?</p>
-                </div> 
-                <figure class="slider_picture">
-                    <img src="icons/solarshopping.jpg">
-                </figure>
+            <section class="slider_section">
+                <img src="icons/slider3.jpg" alt="" class="slider_img">
             </section>
-            <section class="slider_body" data-id="4">
-                <div class="slider_texts">
-                    <h2 class="subtitle">chau</h2>
-                    <p class="slider_review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, laudantium sequi quos hic nostrum dolorem?</p>
-                </div> 
-                <figure class="slider_picture">
-                    <img src="icons/ort monta.jpeg">
-                </figure>
-            </section>
-            
-            <img src="icons/rightarrow.svg" class="slider_arrow" id ="after">
         </div>
+        <img src="icons/leftarrow.svg" class="slider_btn slider_btn--left" id="btn-left">
+        <img src="icons/rightarrow.svg" class="slider_btn slider_btn--right" id="btn-right">
     </section>
+    <script src="impacto.js"></script>
 </body>
 </html>
