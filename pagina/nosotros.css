@@ -77,4 +77,40 @@ header{
 .contacto{
     background-color:rgb(46, 46, 46);
     color: #f9f9f9;
+    display: flex;
+    flex-flow: column;
+}
+
+.contacto img{
+    width: 50px;
+}
+
+.contitulo{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.articles{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.nombre{
+    color: #000000;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: 450;
+    text-align: right;
+    margin-right: 15px;
+    align-items: center;
+}
+.perfil{
+    background-color: rgb(173, 204, 199);
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    margin-top: 0;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
