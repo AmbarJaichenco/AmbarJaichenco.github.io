@@ -14,7 +14,6 @@ body{
     margin:0 auto;
 }
 header{
-    min-width: 100vw;
     min-height: 100vh;
     background-image: linear-gradient(180deg, #223240 10%, #6653538c 100%), url(icons/solar.jpg);
     z-index: -1;  
@@ -74,12 +73,12 @@ header{
 
 }
 
-.contacto{
+.equipo{
     background-color:rgb(46, 46, 46);
     color: #f9f9f9;
-    display: flex;
-    flex-flow: column;
+    overflow: hidden;
 }
+
 
 .contacto img{
     width: 50px;
@@ -108,9 +107,137 @@ header{
 }
 .perfil{
     background-color: rgb(173, 204, 199);
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 350px;
     margin: 30px;
     margin-top: 0;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
+
+.rol{
+    color: #000000;
+    font-size: 1.3rem;
+    font-weight: 350;
+    text-align: right;
+    margin-right: 15px;
+    align-items: center;
+}
+  
+  .our-team {
+    padding: 30px 0 40px;
+    margin-bottom: 30px;
+    background-color: #f7f5ec;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .col-12{
+      width: 30%;
+  }
+  .our-team .picture {
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .our-team .picture::before {
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #057272;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 0.9;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+  }
+  
+  .our-team:hover .picture::before {
+    height: 100%;
+  }
+  
+  .our-team .picture::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #208668;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .our-team .picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+  }
+  
+  .our-team:hover .picture img {
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+  }
+  
+  .our-team .title {
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+    text-transform: capitalize;
+  }
+  
+  .our-team .social {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #125c4c;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .our-team:hover .social {
+    bottom: 0;
+  }
+  
+  .our-team .social li {
+    display: inline-block;
+  }
+  
+  .our-team .social li a {
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+  }
+  
+  .our-team .social li a:hover {
+    color: #1369ce;
+    background-color: #f7f5ec;
+  }
+
+  .name{
+      color: #223240;
+  }
+
+  .row{
+      display: flex;
+      justify-content: space-around;
+      width: 75%;
+      margin: 0 auto;
+  }
+  
