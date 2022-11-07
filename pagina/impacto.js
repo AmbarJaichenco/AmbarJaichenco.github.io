@@ -30,7 +30,7 @@ function Previous(){
     setTimeout(function(){
         slider.style.transition = "none";
         slider.insertAdjacentElement('afterbegin', sliderSectionLast);
-        slider.style.marginLeft ="-100%";
+        slider.style.marginLeft ="100%";
     }, 500);
 }
 
