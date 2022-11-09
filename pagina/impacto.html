@@ -1,47 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel=StyleSheet href="styleimpacto.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
+
 <body>
-    <header>
-        <h1 class="titulo">IMPACTO</h1>
-    </header>
-    <section class="cuantaenergia">
-        <h3 id="numtotal" class="gen">123.4</h3>
-        <p class="joules">  JOULES GENERADOS  </p>
-        <br>
-        <h3 id="numpisada" class="gen">12.3</h3>
-        <p class="joules">  JOULES POR PISADA  </p>
-    </section>
-    <section class="container_slider">
-        <div class="slider" id="slider">
-            <section class="slider_section">
-                <img src="icons/slider1.jpg" class="slider_img">
-            </section>
-            <section class="slider_section">
-                <img src="icons/slider2.jpg" alt="" class="slider_img">
-            </section>
-            <section class="slider_section">
-                <img src="icons/slider3.jpg" alt="" class="slider_img">
-                </img>
-            </section>
-        </div>
-        <img src="icons/leftarrow.svg" class="slider_btn slider_btn--left" id="btn-left">
-        <img src="icons/rightarrow.svg" class="slider_btn slider_btn--right" id="btn-right">
-    </section>
+    <div id="wrapper">
+        <header id="header">
+            <h1 class="titulo" data-aos="fade-up">IMPACTO</h1>
+        </header>
+        <section class="cuantaenergia" data-aos="fade-up">
+            <div class="total">
+                <h3 id="value" class="gen"></h3>
+                <p class="joules"> JOULES GENERADOS </p>
+                <br>
+            </div>
+            <div class="pisada">
+                <h3 id="numpisada" class="gen"></h3>
+                <p class="joules"> JOULES POR PISADA </p>
+            </div>
+
+        </section>
+        <section class="container_slider" data-aos="fade-up">
+            <div class="slider" id="slider">
+                <section class="slider_section">
+                    <img src="icons/slider1.jpg" class="slider_img">
+                </section>
+                <section class="slider_section">
+                    <img src="icons/slider2.jpg" alt="" class="slider_img">
+                </section>
+                <section class="slider_section">
+                    <img src="icons/slider3.jpg" alt="" class="slider_img">
+                    </img>
+                </section>
+            </div>
+            <img src="icons/leftarrow.svg" class="slider_btn slider_btn--left" id="btn-left">
+            <img src="icons/rightarrow.svg" class="slider_btn slider_btn--right" id="btn-right">
+        </section>
+
+        <section class="reciclable" data-aos="fade-up">
+            <img src="https://picsum.photos/550/550" alt="" class="imgplas">
+            <div class="texto" >
+                <h3 class="subtitle">Diseño conciente</h3>
+                <p class="txtrecic" data-aos="fade-left">
+                    Para poder pensar en un futuro con energías renovables y sustentables hay que tener en cuenta todo
+                    el proceso, es por eso que Maxom está hecho
+                    con materiales reciclados de nuestros propios desechos como escuela, para apoyar la economía
+                    circular, el reciclaje y disminuir nuestra huella de carbono. <br><br>Hecho con plástico reciclado de nuestras impresoras 3d, Maxom propone un cambio y una iniciativa ecológica, para aprovechar nuestros desechos y convertirlos en nuestros proyectos. </p>
+                </p>
+            </div>
+
+        </section>
+    </div>
+
+
     <script src="impacto.js"></script>
-    <section class="reciclable">
-        <img src="https://picsum.photos/500/400" alt="" class="imgplas">
-        <h3>Diseño conciente</h3>
-        <p>Para poder pensar en un futuro con energías renovables y sustentables hay que tener en cuenta todo el proceso, es por eso que Maxom está hecho
-             con materiales reciclados de nuestros propios desechos como escuela, para apoyar la economía circular, el reciclaje y disminuir nuestra huella de carbono </p>
-        </p>
-    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>

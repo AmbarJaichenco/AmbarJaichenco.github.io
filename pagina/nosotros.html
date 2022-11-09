@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel=StyleSheet href="nosotros.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
@@ -14,7 +15,9 @@
     </header> 
     <section id="quienessomos">
         <img src="https://picsum.photos/700/700" alt="" class="img">
-        <div class="chau">
+        <div class="chau" data-aos="fade-left" data-aos-offset="500"
+        data-aos-duration="500">
+            
             <h3 class="subtitle">¿Quienes Somos?</h3>
             <p class="sobrenos">Somos un grupo de estudiantes de 4to año de la escuela ORT en busca de una solución a la crisis energética
                 mundial. <br> Buscamos alternativas tecnológicas renovables y limpias para generar energía. <br> 
@@ -63,10 +66,17 @@
         </div>
     </section>
     <section id="nuestroobjetivo">
-        <div class="chau">
+        <div class="chau" data-aos="fade-left">
             <h3 class="subtitle" id="subobj">Nuestro Objetivo</h3>
-            <p class="sobrenos">Como la siguiente generación tenemos la responsabilidad de trabajar 
+            <p class="sobrenos" data-aos="fade-left">Como la siguiente generación tenemos la responsabilidad de trabajar 
         </div>
         <img src="https://picsum.photos/700/700" alt="" class="img">
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script> 
 </body>
+
+
 </html>
