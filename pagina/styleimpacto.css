@@ -8,8 +8,6 @@ body{
 }
 
 .container{
-    width:90%;
-    max-width: 1200px;
     overflow: hidden;
     margin:0 auto;
 }
@@ -27,8 +25,8 @@ nav{
 }
 
 header{
-    min-height: 100vh;
-    background-image: linear-gradient(180deg, #223240 10%, #6653538c 100%), url(icons/solar.jpg);
+    min-height: 90vh;
+    background-image: linear-gradient(180deg, #222b40 5%, #6653538c 100%), url(icons/solar.jpg);
     z-index: -1;  
     display: flex;
     align-items:center;
@@ -102,7 +100,6 @@ header{
     height: 100%;
     object-fit: cover;
     z-index: -1;
-    display: flex;
 }
 
 .textoslider{
@@ -132,6 +129,8 @@ header{
 .imgplas{
     margin-left: 40px;
     margin-top: 40px;
+    height: 550px;
+    width: 550px;
     border-radius: 2%;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
@@ -150,4 +149,23 @@ header{
     margin-top: 0;
     font-size: 1.6rem;
     font-weight: 210;
+}
+
+.slider1 {
+    background-image: url("icons/slider1.jpg");
+    object-fit: contain;
+}
+
+.slider2{
+    background-image: url("icons/slider2.jpg");
+    object-fit: cover;
+}
+
+.slider3{
+    background-image: url("icons/slider3.jpg");
+    object-fit: cover;
+}
+
+.slider_p {
+    margin: 20px;
 }
