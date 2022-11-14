@@ -256,9 +256,6 @@ header{
       width: 75%;
       margin: 0 auto;
   }
-  #fotofede{
-    object-fit: fit;
-  }
   #nuestroobjetivo{
     display: flex;
     align-items: center;

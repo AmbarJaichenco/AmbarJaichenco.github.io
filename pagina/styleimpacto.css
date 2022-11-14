@@ -98,8 +98,18 @@ header{
 .slider_img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
     z-index: -1;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.slider_texts{
+    height: 100%;
+    background: #0e131fa9;
+    padding: 50px;
+    text-align: center;
+    color:#d6f5e2;
+    font-size: 1.3rem;
 }
 
 .textoslider{
@@ -153,17 +163,14 @@ header{
 
 .slider1 {
     background-image: url("icons/slider1.jpg");
-    object-fit: contain;
 }
 
 .slider2{
     background-image: url("icons/slider2.jpg");
-    object-fit: cover;
 }
 
 .slider3{
     background-image: url("icons/slider3.jpg");
-    object-fit: cover;
 }
 
 .slider_p {
